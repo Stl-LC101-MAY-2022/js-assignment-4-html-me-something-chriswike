@@ -1,1 +1,76 @@
 /* Write your CSS here! */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+	width: 100%;
+	max-width: 1200px;
+	margin: 8px auto;
+    padding: 0;
+	background-color: rgb(255, 255, 255);
+	font-size: 70%;
+    font-family: 'Playfair Display', serif;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+h2 {
+    text-align: left;
+    font-size: 3em;    
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 1.35em;
+}
+
+.main {
+    margin: auto;
+    width: 80%;
+    border-bottom: 1px solid rgb(202, 201, 207);
+    padding: 10px;
+}
+
+p {
+    font-size: 1.5em;
+
+}
+
+p.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+}
+
+#mainHeading {
+    color:rgb(255, 0, 0)
+}
+
+p.funParagraph{
+    color:rgb(0, 255, 0)
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.15em;
+}
+
